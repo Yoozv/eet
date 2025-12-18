@@ -1,10 +1,13 @@
 
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar';
-import Home from './pages/home';
-import Imports from './pages/imports';
-import Exports from './pages/exports';
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Imports from './pages/Imports';
+import Exports from './pages/Exports';
+import About from './pages/About';
+import Imports from './pages/Imports';
+import Exports from './pages/Exports';
 import MedicalEquipment from './pages/medicalEquipment';
 import EdibleProducts from './pages/edibleProducts';
 import Contracting from './pages/contracting';
