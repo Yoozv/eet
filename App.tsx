@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from "./components/navbar';
+import Navbar from "./components/navbar";
 import Home from './pages/home';
 import Imports from './pages/imports';
 import Exports from './pages/exports';
