@@ -2,17 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/navbar';
-import Home from './pages/Home';
-import Imports from './pages/Imports';
-import Exports from './pages/Exports';
-import MedicalEquipment from './pages/MedicalEquipment';
-import EdibleProducts from './pages/EdibleProducts';
-import Contracting from './pages/Contracting';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import RFQModal from './components/RFQModal';
-import TradeAssistant from './components/TradeAssistant';
-import AdminPanel from './components/AdminPanel';
+import Home from './pages/home';
+import Imports from './pages/imports';
+import Exports from './pages/exports';
+import MedicalEquipment from './pages/medicalEquipment';
+import EdibleProducts from './pages/edibleProducts';
+import Contracting from './pages/contracting';
+import Contact from './pages/contact';
+import About from './pages/about';
+import RFQModal from './components/rFQModal';
+import TradeAssistant from './components/tradeAssistant';
+import AdminPanel from './components/adminPanel';
 import { Language, Product, QuoteItem, Inquiry, Partner, Project, ExportCategory } from './types';
 import { IMPORT_PRODUCTS, MEDICAL_PRODUCTS, EDIBLE_PRODUCTS, PARTNERS as DEFAULT_PARTNERS, PROJECTS, EXPORT_CATEGORIES } from './constants';
 
