@@ -1,0 +1,8 @@
+{
+  "name": "Ethio Trade Venture PLC - Global Gateway",
+  "description": "A comprehensive B2B web platform for Ethio Trade Venture PLC, specializing in Global Imports, Ethiopian Exports, and General Contracting. Featuring an RFQ system and an AI-powered trade assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
